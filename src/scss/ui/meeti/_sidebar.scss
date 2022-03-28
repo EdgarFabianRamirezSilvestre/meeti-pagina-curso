@@ -1,0 +1,17 @@
+@use 'base/mixins' as m;
+@use 'base/variables' as v;
+
+.sidebar{
+    &__contenido{
+        background-color: v.$secundario;
+        padding: 2rem;
+        text-align: center;
+    }
+    &__heading,
+    &__texto{
+        color: v.$blanco;
+    }
+    &_label{
+        font-weight: 700;
+    }
+}
